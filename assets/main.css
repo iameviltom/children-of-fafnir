@@ -26,9 +26,9 @@ ul, ol { margin-left: 30px; list-style-type: none; }
 li > ul, li > ol { margin-bottom: 0; }
 
 /** Headings */
-h1, h2, h3, h4, h5, h6 { font-weight: 900; color: #d26471; }
+h1, h2, h3, h4, h5, h6 { font-weight: 900; color: #d26471; text-align: center; }
 
-h1 { margin: 30px 0; text-align: center; }
+h1 { margin: 30px 0; }
 
 /** Links */
 a { color: #7ec4c1; text-decoration: none; }
@@ -103,6 +103,12 @@ table td { border: 1px solid #e8e8e8; }
 .screenshot-column img { margin-top: 8px; vertical-align: middle; width: 100%; }
 
 .narrow-list { margin: 0 auto; max-width: 350px; text-align: center; }
+
+.storeicon-row { vertical-align: middle; display: flex; flex-wrap: wrap; padding: 0 4px; align-items: center; }
+
+.storeicon-column { flex: 25%; padding: 0 15px; max-width: 300px; top: 50%; }
+
+.storeicon-column img { vertical-align: middle; width: 100%; }
 
 /** Site header */
 .site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
