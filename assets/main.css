@@ -104,11 +104,11 @@ table td { border: 1px solid #e8e8e8; }
 
 .narrow-list { margin: 0 auto; max-width: 350px; text-align: center; }
 
-.storeicon-row { vertical-align: middle; display: flex; flex-wrap: wrap; padding: 0 4px; align-items: center; }
+.storeicon-row { align-content: start; display: flex; flex-wrap: wrap; padding: 0 4px; }
 
-.storeicon-column { flex: 25%; padding: 0 15px; max-width: 300px; top: 50%; }
+.storeicon-column { flex: 25%; padding: 0 15px; max-width: 300px; align-self: top; }
 
-.storeicon-column img { vertical-align: middle; width: 100%; }
+.storeicon-column img { width: 100%; padding-bottom: 6px; }
 
 /** Site header */
 .site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
